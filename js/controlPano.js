@@ -17,7 +17,7 @@ const viewer = new PANOLENS.Viewer({
     controlBar: true,
     autoRotate: true,
     autoRotateSpeed: 0.4,
-    cameraFov: 60
+    cameraFov: 600
 });
 
 Panorama1.link(Panorama2, SpotPositions[0]);
