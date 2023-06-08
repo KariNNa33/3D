@@ -9,7 +9,7 @@ let imageContainer = document.querySelector('.panorama__container');
 
 let SpotPositions = [
     // Связь в коридоре
-    new THREE.Vector3(0, 0, 500)
+    new THREE.Vector3(0, 0, 2500)
 ]
 
 const viewer = new PANOLENS.Viewer({
