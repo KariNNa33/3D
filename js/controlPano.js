@@ -4,6 +4,7 @@ const Panorama3 = new PANOLENS.ImagePanorama('assets/Panorama_3.jpg');
 const Panorama4 = new PANOLENS.ImagePanorama('assets/Panorama_4.jpg');
 const Panorama5 = new PANOLENS.ImagePanorama('assets/Panorama_5.jpg');
 const Panorama6 = new PANOLENS.ImagePanorama('assets/Panorama_6.jpg');
+const Panorama7 = new PANOLENS.ImagePanorama('assets/Panorama_7.jpg');
 let imageContainer = document.querySelector('.panorama__container');
 
 let SpotPositions = [
@@ -57,4 +58,4 @@ Panorama5.link(Panorama1, SpotPositions[8]);
 Panorama5.link(Panorama6, SpotPositions[9]);
 Panorama6.link(Panorama5, SpotPositions[10]);
 
-viewer.add(Panorama1, Panorama2, Panorama3, Panorama4, Panorama5, Panorama6);
+viewer.add(Panorama1, Panorama2, Panorama3, Panorama4, Panorama5, Panorama6, Panorama7);
