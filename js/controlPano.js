@@ -9,6 +9,12 @@ let imageContainer = document.querySelector('.panorama__container');
 
 let SpotPositions = [
     // Связь в коридоре
+new THREE.Vector3(1630, 0, -660);
+new THREE.Vector3(1630, 0, -660);
+new THREE.Vector3(1630, 0, -660);
+new THREE.Vector3(1630, 0, -660);
+new THREE.Vector3(1630, 0, -660);
+new THREE.Vector3(1630, 0, -660);
 new THREE.Vector3(1630, 0, -660)
 ]
 
