@@ -10,7 +10,7 @@ let imageContainer = document.querySelector('.panorama__container');
 let SpotPositions = [
 // 1 - 2
     // x y z
-new THREE.Vector3(1000, 1000, 1000),
+new THREE.Vector3(3000, 1000, 1000),
 // 2 - 3.1
 
 // 2 - 3.2
